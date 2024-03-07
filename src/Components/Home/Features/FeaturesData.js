@@ -4,7 +4,7 @@ const FeaturesData = [
         desc:"This entails sourcing individuals through a variety of recruitment channels, including job boards, social media, recommendations, and networking events. "
     },
     {
-        title:"Hire System",
+        title:"Hiring System",
         desc:"Creating job postings, handling applicants, performing tests or interviews, and making final recruiting decisions are usually included in its functions."
     },
     {

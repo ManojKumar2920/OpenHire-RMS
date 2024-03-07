@@ -18,15 +18,15 @@ const Nav = () => {
       };
     const [theme, setTheme] = useState("light");
     return (
-        <div className="w-[100%] fixed top-0 z-50">
-            <div className=" flex flex-row bg-blue-500 text-white justify-between px-[3%] py-3 items-center text-[18px]" style={NotSelected}>
+        <div className="w-screen fixed top-0 z-50  bg-white text-black border shadow-lg">
+            <div className=" flex flex-row justify-between px-[3%] py-3 items-center text-[23px]" style={NotSelected}>
 
                 <div className=" flex flex-row flex-1 justify-start gap-[5%] items-center">
 
                     <motion.div whileTap={{ scale: 0.6 }} className=" cursor-pointer">
                         <MenuIcon className="text-[23px]" />
                     </motion.div>
-                    <motion.p whileTap={{scale:0.6}} className="p-1 rounded-[50%] text-[14px] cursor-pointer border border-gray-200 w-[30px] h-auto text-center">S</motion.p>
+                    <motion.p whileTap={{scale:0.6}} className="p-1 rounded-[50%] text-[14px] cursor-pointer border border-gray-200 w-[30px] h-auto text-center bg-gray-200">S</motion.p>
                     {
                         theme === "light" &&
                         <motion.div className=" duration-300 rounded-[50%] text-[22px] cursor-pointer p-1" whileTap={{ scale: 0.4 }} onClick={() => {
@@ -45,24 +45,24 @@ const Nav = () => {
                     }
                 </div>
 
-                <div className=" border rounded-[5px] overflow-hidden border-blue-200 px-2 w-[250px] py-1 bg-blue-200 relative flex flex-row items-center flex-[1]">
-                    <input type="text" placeholder="Use your tools by searching.." className="border-none bg-blue-200 text-black outline-none text-[14px]  p-1 w-[90%]" />
+                <div className=" border rounded-[5px] overflow-hidden border-blue-200 px-2 w-[250px] py-1 bg-gray-100 relative flex flex-row items-center flex-[1]">
+                    <input type="text" placeholder="Use your tools by searching.." className="border-none bg-gray-100 text-black outline-none text-[14px]  p-1 w-[90%]" />
                     <SearchIcon className="text-black text-[18px] cursor-pointer" />
                 </div>
 
                 <div className=" flex flex-row items-center flex-1 gap-[4%] justify-end">
 
-                    <motion.div whileTap={{scale:0.6}} className=" rounded-[50%] text-[14px] text-blue-500 bg-white p-1 cursor-pointer border border-white">
+                    <motion.div whileTap={{scale:0.6}} className=" rounded-[50%] text-[17px] bg-gray-200 border-gray-200 p-1 cursor-pointer border">
                         <PlusIcon  />
                     </motion.div>
-                    <motion.div whileTap={{scale:0.6}} className=" rounded-[50%] text-[14px] text-blue-500 bg-white border border-white p-1 cursor-pointer">
+                    <motion.div whileTap={{scale:0.6}} className=" rounded-[50%] text-[17px] bg-gray-200 border-gray-200 border p-1 cursor-pointer">
                         <QuestionIcon />
                     </motion.div>
-                    <motion.div whileTap={{scale:0.6}} className=" rounded-[50%] text-[16px] text-blue-500 bg-white p-1 cursor-pointer">
+                    <motion.div whileTap={{scale:0.6}} className=" rounded-[50%] text-[17px] bg-gray-200 border-gray-200 border p-1 cursor-pointer">
                         <NotificationIcon />
                     </motion.div>
 
-                    <motion.img whileTap={{scale:0.6}} src={user} alt="userImg" className="rounded-[50%] w-[30px] ml-[1%] h-[30px] cursor-pointer" />
+                    
                 </div>
 
             </div>

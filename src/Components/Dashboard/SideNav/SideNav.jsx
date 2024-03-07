@@ -23,26 +23,26 @@ const SideNav = () => {
   };
 
   return (
-    <div className=" shadow-sm bg-gray-100 border-gray-400 font-semibold text-[15px]  absolute w-[100%]" style={NotSelected}>
+    <div className=" shadow-sm bg-blue-300 border-gray-400 font-semibold text-[15px]  absolute w-[100%]" style={NotSelected}>
 
       <div className=" pt-[5%] ">
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%] ">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%] ">
           <HomeIcon className="text-gray-700 " />
           <p>Home</p>
         </div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <OrganizationIcon className="text-gray-700" />
           <p>Organisation</p>
         </div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <JobIcon className="text-gray-700" />
           <p>Vacantes</p>
         </div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <PeoplesIcon className="text-gray-700" />
           <p>Candidates</p>
         </div>
@@ -52,37 +52,37 @@ const SideNav = () => {
 
       <div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <RecommandIcon className="text-gray-700" />
           <p>Recommandation</p>
         </div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <SuppliersIcon className="text-gray-700" />
           <p>Suppliers</p>
         </div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <PlacementIcon className="text-gray-700" />
           <p>Placements</p>
         </div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <ApplicationIcon className="text-gray-700" />
           <p>Application</p>
         </div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <DollarIcon className="text-gray-700" />
           <p>Income</p>
         </div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <ActivityIcon className="text-gray-700" />
           <p>Activities</p>
         </div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <InboxIcon className="text-gray-700" />
           <p>Inbox</p>
         </div>
@@ -93,7 +93,7 @@ const SideNav = () => {
 
       <div>
 
-        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-gray-300 cursor-pointer pl-[7%]">
+        <div className="flex flex-row items-center py-[3%] px-[2%] gap-3 hover:bg-white cursor-pointer pl-[7%]">
           <AnalyticsIcon className="text-gray-700" />
           <p>Reports</p>
         </div>

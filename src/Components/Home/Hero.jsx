@@ -32,7 +32,7 @@ const Hero = () => {
 
                     {/**msg Container */}
                     <div className="absolute bg-transparent w-[350px] top-[60%] right-[50%]">
-                        <div className="rounded-[5px] bg-white flex flex-row items-center gap-2 border border-gray-100 mb-[5%] w-auto py-[2%] px-[2%]">
+                        <div className="rounded-[5px] bg-white flex flex-row items-center gap-2 border border-gray-200 mb-[5%] w-auto py-[2%] px-[2%] shadow-xl">
                             <DoneIcon />
                             <div className=" flex flex-row items-center gap-1 text-center">
                                 <p>Reduce hiring time by</p>
@@ -41,7 +41,7 @@ const Hero = () => {
                             </div>
                         </div>
 
-                        <div className="rounded-[5px] bg-white flex flex-row items-center gap-2 border border-gray-100 w-[70%] py-[2%] px-[2%]">
+                        <div className="rounded-[5px] bg-white flex flex-row items-center gap-2 border border-gray-200 w-[70%] py-[2%] px-[2%] shadow-xl">
                             <DoneIcon />
                             <div className=" flex flex-row items-center gap-1 text-center">
                                 <p>Save your</p>

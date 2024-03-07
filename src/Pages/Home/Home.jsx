@@ -3,13 +3,15 @@ import NavBar from "../../Components/NavBar/NavBar";
 import Hero from "../../Components/Home/Hero";
 import MainContainer from "../../Components/Home/MainContainer";
 import Features from "../../Components/Home/Features/Features";
+import Footer from "../../Components/Footer/Footer";
 
 export const HomeLayout = () => {
     return (
-        <div className=" pb-[5%]">
+        <div className="">
             <Hero />
             <MainContainer/>
             <Features/>
+            <Footer/>
         </div>
     );
 }

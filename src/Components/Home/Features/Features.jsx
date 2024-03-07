@@ -12,7 +12,7 @@ const Features = () => {
     switch (true) {
       case features.title === "Candidate Sourcing":
         return <CandidateIcon className="mx-auto" />;
-      case features.title === "Hire System":
+      case features.title === "Hiring System":
         return <HireIcon className="mx-auto" />;
       case features.title === "ATS":
         return <ATSIcon className="mx-auto" />;
@@ -36,7 +36,7 @@ const Features = () => {
         {
 
           FeaturesData.map((feature) => (
-            <div key={feature.title} className=" w-[350px] p-3 rounded-[10px] text-center hover:shadow-xl border border-gray-200 flex flex-col gap-2 justify-center cursor-pointer hover:border-blue-500 hover:border hover:duration-300 py-7 shadow-md">
+            <div key={feature.title} className=" w-[350px] p-3 rounded-[20px] text-center hover:shadow-xl border border-gray-200 flex flex-col gap-2 justify-center cursor-pointer hover:border-blue-500 hover:border hover:duration-300 py-7 shadow-md">
               <div className="text-[33px]">
                 {handleIcon(feature)}
               </div>
