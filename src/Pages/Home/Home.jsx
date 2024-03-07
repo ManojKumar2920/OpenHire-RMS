@@ -9,9 +9,11 @@ export const HomeLayout = () => {
     return (
         <div className="">
             <Hero />
-            <MainContainer/>
-            <Features/>
-            <Footer/>
+            <MainContainer />
+            <Features />
+            <Footer />
+
+            
         </div>
     );
 }

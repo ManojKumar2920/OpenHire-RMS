@@ -2,10 +2,18 @@ import HeroImg from "../../assets/Img/Home/hero.jpg";
 import { MdOutlineDone as DoneIcon } from "react-icons/md";
 import { HiCurrencyDollar as DollarIcon } from "react-icons/hi2";
 import { Link } from "react-router-dom";
+import { LuMessagesSquare as BotIcon } from "react-icons/lu";
+import { motion } from "framer-motion";
 
 const Hero = () => {
     return (
         <div>
+
+            {/**Message Bot */}
+            <motion.div whileTap={{scale:0.6}} className=" fixed rounded-[50%] bg-blue-500 text-white w-[50px] h-[50px] right-[3%] z-50 cursor-pointer top-[87%] flex justify-center items-center">
+                <BotIcon className="mx-auto text-[25px]" />
+            </motion.div>
+
             <div className=" flex flex-row px-[3%] gap-6 pt-[6%]">
                 <div className=" flex-1">
                     <h2 className=" text-[16px] text-gray-500 font-semibold">Online Hiring Software For Business</h2>
