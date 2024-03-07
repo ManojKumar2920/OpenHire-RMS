@@ -1,4 +1,3 @@
-import resume from "../../assets/Img/Home/parse-resumes.jpg"
 import { SiGithub as GithubIcon } from "react-icons/si";
 import opensource from "../../assets/Img/Home/opensource.jpg";
 import { Link } from "react-router-dom";
