@@ -1,6 +1,7 @@
 import Nav from "../../Components/Dashboard/Nav/Nav";
 import SideNav from "../../Components/Dashboard/SideNav/SideNav";
-import {Outlet} from "react-router-dom"
+import {Outlet} from "react-router-dom";
+
 const DashboardLayout =()=>{
   return(
     <div className=" flex flex-row mt-[63px]">
@@ -15,14 +16,13 @@ const DashboardLayout =()=>{
 
     </div>
   );
-}
+};
 
 const Dashboard = () => {
   return (
     <div>
         <div>
             <Nav/>
-
             <DashboardLayout/>
         </div>
     </div>
