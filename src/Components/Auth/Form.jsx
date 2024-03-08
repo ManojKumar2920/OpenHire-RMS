@@ -15,7 +15,7 @@ const Form = () => {
 
     return (
         <div>
-            <form className=" shadow-md rounded-[10px] px-[30px] py-[10px] w-[350px] h-auto border font-poppins sm:my-[10%]" >
+            <form className=" shadow-md rounded-[10px] px-[30px] py-[10px] w-[350px] h-auto border font-poppins sm:my-[10%] mx-auto" >
 
                 {
                     location.pathname === "/login" ? <h1 className="text-[20px] font-semibold text-center">Login Now</h1> : <h1 className="text-[20px] font-semibold text-center">Signup</h1>
