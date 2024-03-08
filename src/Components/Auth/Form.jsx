@@ -25,7 +25,7 @@ const Form = () => {
                 <div className=" flex flex-col gap-4 my-[10%]">
 
                     {
-                        location.pathname === "/register" &&
+                        location.pathname === "/signup" &&
                         <div className="flex flex-col">
                             <label htmlFor="name">Name:</label>
                             <input
@@ -104,7 +104,7 @@ const Form = () => {
                 }
 
                 {
-                    location.pathname === "/register" &&
+                    location.pathname === "/signup" &&
                     <div className=" text-[14px] my-[6%]">
                         <div>
                         <motion.p whileTap={{ scale: 0.7 }}
