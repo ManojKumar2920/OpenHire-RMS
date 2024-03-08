@@ -108,7 +108,7 @@ const Form = () => {
                     <div className=" text-[14px] my-[6%]">
                         <div>
                         <motion.p whileTap={{ scale: 0.7 }}
-                            className=" text-white bg-[#ff9200] rounded-[5px] px-[5%] py-[2%] text-center cursor-pointer"
+                            className=" text-white bg-blue-600 rounded-[5px] px-[5%] py-[2%] text-center cursor-pointer"
                             type="button"
                             onClick={()=>{
                                 user.register(name, email, password);
@@ -121,7 +121,7 @@ const Form = () => {
                         
                         <div className="flex flex-row items-center justify-between my-[6%]">
                             <p>Already have an account ?</p>
-                            <Link to={"/login"} className=" underline text-[#ff9200] mr-[5%]">Login</Link>
+                            <Link to={"/login"} className=" underline text-blue-600 mr-[5%]">Login</Link>
                         </div>
 
                     </div>

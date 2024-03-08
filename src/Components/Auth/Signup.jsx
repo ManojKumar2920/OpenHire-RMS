@@ -5,26 +5,13 @@ import { motion } from "framer-motion";
 
 const Signup = () => {
     return (
-        <div className="h-[90vh]">
+        <div className="h-[90vh] mt-[20%]">
 
-            <div className=" bg-[#ff9200] rounded-[50%] absolute -z-10 "></div>
-
-            <div className="flex flex-row items-center justify-around ">
-                <div className=" sm:hidden">
-
-                    <div className=" flex flex-col gap-2 my-[10%]">
-                        <h1 className=" font-bold text-[40px]">CodersCave</h1>
-                        <p className="text-[20px] font-semibold">Make Impact together</p>
-                    </div>
-
-                    <motion.button whileTap={{scale:0.6}} className=" flex flex-row items-center gap-2 border bg-[#ff9200] text-white p-2 rounded-[5px]">Learn Now <LineIcon /></motion.button>
-
-                </div>
+            <div className=" bg-blue-600 rounded-[50%] absolute -z-10 "></div>
 
                 <div>
                     <Form />
                 </div>
-            </div>
 
             <div className=" flex flex-row sm:flex-col sm:gap-3 items-center w-screen justify-around absolute bottom-[5%]">
 
