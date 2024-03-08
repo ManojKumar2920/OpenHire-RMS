@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Login = () => {
     return (
-        <div className=" mt-[9%]">
+        <div className=" mt-[9%] mx-auto">
 
             <div className=" bg-blue-600 rounded-[50%] absolute -z-10 "></div>
 
