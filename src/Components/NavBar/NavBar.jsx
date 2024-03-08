@@ -20,7 +20,9 @@ const NavBar = () => {
                 </div>
 
                 <div className=" flex flex-row items-center justify-end gap-6 flex-[1] sm:hidden">
+                    <Link to={"/login"}>
                     <p className="hover:text-blue-600 cursor-pointer">Log&#160;in</p>
+                    </Link>
                     <Link to={"/dashboard"} className="text-white bg-blue-600 rounded-[5px] px-3 py-2 cursor-pointer font-semibold hover:shadow-lg">
                         <p>Get Start Free</p>
                     </Link>
