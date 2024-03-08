@@ -85,7 +85,7 @@ const Form = () => {
                         <div className="flex flex-row items-center justify-between ">
                             <motion.button
                                 whileTap={{ scale: 0.9 }}
-                                className="flex flex-row items-center text-white bg-[#ff9200] rounded-[5px] px-[5%] py-[2%]"
+                                className="flex flex-row items-center text-white bg-blue-600 rounded-[5px] px-[5%] py-[2%]"
                                 type="button"
                                 onClick={()=>{
                                     user.login(email, password);
@@ -97,7 +97,7 @@ const Form = () => {
                         </div>
                         <div className="flex flex-row items-center justify-between my-[10%]">
                             <p>Doesn&apos;t have an account ?</p>
-                            <Link to={"/register"} className=" underline text-[#ff9200] mr-[5%]">Register</Link>
+                            <Link to={"/signup"} className=" underline text-blue-600 mr-[5%]">Register</Link>
                         </div>
                     </div>
 
