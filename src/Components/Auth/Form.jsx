@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const Form = () => {
 
-    const user = useUser();
+    
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
