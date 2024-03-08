@@ -28,7 +28,7 @@ const NavBar = () => {
 
 
                 {/**Mobile Nav */}
-                <div className=" flex flex-row items-center w-screen justify-between text-[16px] ">
+                <div className="hidden sm:flex flex-row items-center w-screen justify-between text-[16px] ">
                     <div className=" cursor-pointer hover:text-blue-600">
                         <p>Logo</p>
                     </div>
