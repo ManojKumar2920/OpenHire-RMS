@@ -12,12 +12,12 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div className=" text-white text-[15px] bg-black px-[4%] mt-[10%] py-[5%]">
-            <div className=" flex flex-row items-start justify-around">
+            <div className=" flex flex-row sm:flex-col sm:px-[5%] gap-10 items-start justify-around">
 
                 <div>
                     <h1>Features</h1>
 
-                    <div className="mt-[20%] mb-[2%] text-gray-400 flex flex-col gap-2">
+                    <div className="mt-[20%] sm:mt-[10%] mb-[2%] text-gray-400 flex flex-col gap-2">
                         <p className=" cursor-pointer">Why Recruit&#160;?</p>
                         <p className=" cursor-pointer">Candidate Sourcing</p>
                         <p className=" cursor-pointer">Hiring System</p>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <div>
                     <h1>Job Posting</h1>
 
-                    <div className="my-[20%] text-gray-400 flex flex-col gap-2">
+                    <div className="my-[20%] sm:mt-[10%] text-gray-400 flex flex-col gap-2">
 
                         <div className="flex flex-row items-center gap-3 cursor-pointer">
                             <GoogleIcon />
@@ -56,7 +56,7 @@ const Footer = () => {
                 <div>
                     <h1>Company</h1>
 
-                    <div className="mt-[20%] mb-[2%] text-gray-400 flex flex-col gap-2">
+                    <div className="mt-[20%] sm:mt-[10%] mb-[2%] text-gray-400 flex flex-col gap-2">
                         <p className=" cursor-pointer">About Us</p>
                         <p className=" cursor-pointer">Careers</p>
                         <p className=" cursor-pointer">Customer Stories</p>
@@ -67,7 +67,7 @@ const Footer = () => {
                 <div>
                     <h1>Resources</h1>
 
-                    <div className="mt-[20%] mb-[2%] text-gray-400 flex flex-col gap-2">
+                    <div className="mt-[20%] sm:mt-[10%] mb-[2%] text-gray-400 flex flex-col gap-2">
                         <p className=" cursor-pointer">Blog</p>
                         <p className=" cursor-pointer">Help Center</p>
                         <p className=" cursor-pointer">Gloserry</p>
@@ -78,7 +78,7 @@ const Footer = () => {
                 <div>
                     <h1>Get In Touch</h1>
 
-                    <div className="mt-[20%] mb-[2%] text-gray-400 flex flex-col gap-2">
+                    <div className="mt-[20%] sm:mt-[10%] mb-[2%] text-gray-400 flex flex-col gap-2">
                         <p className=" cursor-pointer">Contact Us</p>
                         <Link to={"https://github.com/BALASANTHOSH01/Next_Gen_RMS"} target="_blank" className="flex flex-row items-center gap-3 cursor-pointer">
                             <GithubIcon />
@@ -107,7 +107,7 @@ const Footer = () => {
 
             <hr className="h-[1px] bg-gray-400 w-[100%] my-[3%]" />
 
-            <div className=" flex flex-row items-center justify-between text-gray-400">
+            <div className=" flex flex-row sm:flex-col sm:gap-4 sm:text-center items-center justify-between text-gray-400">
 
                 <div>
                     <p>2024 Recruit.All rights are reserved</p>

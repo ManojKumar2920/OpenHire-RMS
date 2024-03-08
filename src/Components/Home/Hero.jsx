@@ -14,11 +14,11 @@ const Hero = () => {
                 <BotIcon className="mx-auto text-[25px]" />
             </motion.div>
 
-            <div className=" flex flex-row px-[3%] gap-6 pt-[6%]">
+            <div className=" flex flex-row sm:flex-col px-[3%] sm:px-[4%] gap-6 pt-[6%]">
                 <div className=" flex-1">
                     <h2 className=" text-[16px] text-gray-500 font-semibold">Online Hiring Software For Business</h2>
 
-                    <div className=" font-bold my-[3%] text-[47px]">
+                    <div className=" font-bold my-[3%] sm:text-[40px] text-[47px]">
                         <h2>Simple Hiring For</h2>
                         <h2>Smart Businesses</h2>
                     </div>
@@ -26,7 +26,7 @@ const Hero = () => {
                     <p className=" text-gray-500 text-[18px] my-[2%]">We bring a human touch to hiring. Discover and hire the perfect candidates with our no-fuss hiring software that just works.</p>
 
                     <Link to={"/dashboard"}>
-                        <div className=" rounded-[5px] px-3 py-3 text-white font-semibold bg-blue-600 w-[200px] text-center my-[5%] cursor-pointer hover:shadow-lg text-[17px]">
+                        <div className=" rounded-[5px] px-3 py-3 text-white font-semibold bg-blue-600 w-[200px] text-center my-[5%] cursor-pointer hover:shadow-lg text-[17px] sm:mx-auto">
                             <p>Get Start Free</p>
                         </div>
                     </Link>
@@ -39,7 +39,7 @@ const Hero = () => {
                     <div className="absolute top-0 left-0 w-full h-full bg-blue-400 bg-opacity-50 rounded-[10px] "></div>
 
                     {/**msg Container */}
-                    <div className="absolute bg-transparent w-[350px] top-[60%] right-[50%]">
+                    <div className="absolute bg-transparent w-[350px] top-[60%] right-[50%] sm:right-[10%] sm:top-[65%]">
                         <div className="rounded-[5px] bg-white flex flex-row items-center gap-2 border border-gray-200 mb-[5%] w-auto py-[2%] px-[2%] shadow-xl">
                             <DoneIcon />
                             <div className=" flex flex-row items-center gap-1 text-center">

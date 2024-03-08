@@ -28,9 +28,9 @@ const Features = () => {
 
   return (
     <div>
-      <div className="my-[5%]">
-        <h1 className="text-center font-bold text-[30px] text-gray-800">Hiring platform</h1>
-        <h1 className="text-center font-bold text-[30px] text-gray-800">packed with everything you need</h1>
+      <div className="my-[5%] sm:mt-[9%]">
+        <h1 className="text-center font-bold text-[30px] sm:text-[25px] text-gray-800">Hiring platform</h1>
+        <h1 className="text-center font-bold text-[30px] sm:text-[25px] text-gray-800">packed with everything you need</h1>
       </div>
       <div className=" flex flex-wrap w-[100%] justify-evenly gap-6">
         {
