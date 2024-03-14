@@ -3,7 +3,7 @@ import React from 'react'
 const WhyRecruit = ({navItem,setNavItem}) => {
   return (
     <div onMouseOver={()=>{setNavItem("recruit")}} onMouseLeave={()=>{setNavItem(null)}}>
-        <div className=' absolute top-[14%] left-[10%] border border-gray-400 bg-white z-50 w-[75%] flex flex-row p-8 rounded-[10px] text-[16px] text-gray-600'>
+        <div className=' absolute top-[14%] left-[10%] border border-gray-200 bg-white z-50 w-[75%] flex flex-row p-8 rounded-[10px] text-[16px] text-gray-600 shadow-lg'>
 
             <div className="flex-1 flex flex-col gap-6 ">
                 <h1 className=" text-[21px] text-black font-semibold" >Why Recruit ?</h1>

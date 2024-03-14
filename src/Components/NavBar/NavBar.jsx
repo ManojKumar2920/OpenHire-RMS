@@ -7,7 +7,7 @@ import UseCase from "./Usecase/UseCase";
 import Resources from "./Resources/Resources";
 
 const NavBar = () => {
-    const [navItem,setNavItem]=useState("recruit");
+    const [navItem,setNavItem]=useState(null);
     const handleNavItem=(item)=>{
         setNavItem(item);
     };
@@ -17,9 +17,9 @@ const NavBar = () => {
             case "recruit":
                 return <WhyRecruit navItem={navItem} setNavItem={setNavItem} />;
             case "usecase":
-                return <UseCase/>;
+                return <UseCase navItem={navItem} setNavItem={setNavItem} />;
             case "":
-                return <Resources/>;
+                return <Resources navItem={navItem} setNavItem={setNavItem} />;
             default:
                 return;
         }

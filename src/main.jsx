@@ -7,6 +7,7 @@ import Signup from "./Components/Auth/Signup.jsx";
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Dashboard from './Pages/Dashboard/Dashboard.jsx';
 import Home, { HomeLayout } from './Pages/Home/Home.jsx';
+import ThemeContextProvider from './Contexts/ThemeMode.jsx';
 
 
 const Router = createBrowserRouter([
@@ -35,7 +36,9 @@ const Router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  <ThemeContextProvider>
   <React.StrictMode>
     <RouterProvider router={Router} />
   </React.StrictMode>,
+  </ThemeContextProvider>
 )
