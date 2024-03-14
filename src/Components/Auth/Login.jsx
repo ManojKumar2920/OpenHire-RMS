@@ -6,16 +6,16 @@ import { motion } from "framer-motion";
 
 const Login = () => {
     return (
-        <div className=" mt-[9%] mx-auto">
+        <div className=" mt-[5%] mx-auto">
 
             <div className=" bg-blue-600 rounded-[50%] absolute -z-10 "></div>
 
-            
-                <div>
-                    <Form />
-                </div>
 
-            <div className=" flex flex-row sm:flex-col sm:gap-3 items-center w-screen justify-around absolute bottom-[5%]">
+            <div>
+                <Form />
+            </div>
+
+            <div className=" flex flex-row sm:flex-col sm:gap-3 items-center w-screen justify-around absolute bottom-[5%] mt-[5%]">
 
                 {/**Terms & Conditions */}
                 <div className="text-gray-500 cursor-pointer flex flex-row gap-2 items-center">

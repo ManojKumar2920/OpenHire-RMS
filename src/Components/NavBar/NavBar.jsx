@@ -18,7 +18,7 @@ const NavBar = () => {
                 return <WhyRecruit navItem={navItem} setNavItem={setNavItem} />;
             case "usecase":
                 return <UseCase navItem={navItem} setNavItem={setNavItem} />;
-            case "":
+            case "resources":
                 return <Resources navItem={navItem} setNavItem={setNavItem} />;
             default:
                 return;
