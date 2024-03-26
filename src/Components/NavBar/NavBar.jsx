@@ -29,7 +29,7 @@ const NavBar = () => {
             <div className="text-gray-500 px-[3%] sm:px-[5%]  py-[1.5%] sm:py-[3%] flex flex-row items-center bg-white border border-gray-300 shadow-md fixed top-0 w-screen z-50" onMouseLeave={()=>{handleNavItem(null)}}>
 
                 <div className=" pr-[2%] flex flex-row items-center gap-[7%] flex-[2] sm:hidden">
-                    <p className="hover:text-blue-600 cursor-pointer">Logo</p>
+                    <Link to={'/'} className=" cursor-pointer font-bold text-[24px]">Open<span className=" text-blue-600">Hire</span></Link>
 
                     <p className="hover:text-blue-600 cursor-pointer" onMouseOver={()=>{handleNavItem("recruit")}} >Why&#160;recruit&#160;?</p>
 
