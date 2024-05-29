@@ -1,4 +1,4 @@
-<img src="https://socialify.git.ci/ManojKumar2920/OpenHire-RMS/image?description=1&descriptionEditable=An%20open-source%20resume%20parser%20built%20with%20React.%20This%20project%20aims%20to%20provide%20a%20powerful%20tool%20for%20streamline%20the%20recruitment%20process.&forks=1&issues=1&language=1&name=1&owner=1&stargazers=1&theme=Light" alt="OpenHire-RMS"/>
+<img src="https://socialify.git.ci/ManojKumar2920/OpenHire-RMS/image?description=1&descriptionEditable=An%20open-source%20resume%20parser%20built%20with%20React.%20This%20project%20aims%20to%20provide%20a%20powerful%20tool%20for%20streamline%20the%20recruitment%20process.&forks=1&issues=1&language=1&name=1&stargazers=1&theme=Light" alt="OpenHire-RMS"/>
 
 # OpenHire
 
