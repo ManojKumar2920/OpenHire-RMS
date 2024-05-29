@@ -89,6 +89,6 @@ OpenHire Resume Parser is licensed under the [MIT License](LICENSE). You are fre
 
 For questions or inquiries about OpenHire Resume Parser, please contact us:
 
-- **Email:** manojkumararumainathan@gmail.com
+- **Email:** manojkumararumainathan@gmail.com, balasanthosh01@gmail.com
 - **Website:** [www.next-gen-rms.vercel.app](https://www.openhire.com)
 - **GitHub Repository:** [OpenHire Resume Parser](https://github.com/ManojKumar2920/OpenHire-RMS)
